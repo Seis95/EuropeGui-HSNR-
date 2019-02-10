@@ -18,7 +18,7 @@ public class Controller {
     @FXML
     Label hauptstadt;
     @FXML
-    Label währung;
+    Label wahrung;
     @FXML
     Label isocode;
     @FXML
@@ -41,6 +41,7 @@ public class Controller {
     public void islandB(){
         pupulateData("IS");
     }
+
     public void ukB(){
         pupulateData("GB");
     }
@@ -81,11 +82,11 @@ public class Controller {
         pupulateData("RU");
     }
 
-    public void dänemarkB(){
+    public void danemarkB(){
         pupulateData("DK");
     }
 
-    public void österreichB(){
+    public void osterreichB(){
         pupulateData("AT");
     }
 
@@ -124,7 +125,8 @@ public class Controller {
     public void bosnienB(){
         pupulateData("BA");
     }
-    public void rumänienB(){
+
+    public void rumanienB(){
         pupulateData("RO");
     }
 
@@ -132,7 +134,7 @@ public class Controller {
         pupulateData("BY");
     }
 
-    public void türkeiB(){
+    public void turkeiB(){
         pupulateData("TR");
     }
 
@@ -167,6 +169,7 @@ public class Controller {
     public void LitauenB(){
         pupulateData("LT");
     }
+
     public void moldavienB(){
         pupulateData("MD");
     }
@@ -202,7 +205,7 @@ public class Controller {
         land.setText("Name: "+ tCountryInfo.getSName());
         code.setText("Kontinent: "+ tCountryInfo.getSContinentCode());
         hauptstadt.setText("Hauptstadt: "+ tCountryInfo.getSCapitalCity());
-        währung.setText("Währung: "+ tCountryInfo.getSCurrencyISOCode());
+        wahrung.setText("Währung: "+ tCountryInfo.getSCurrencyISOCode());
         isocode.setText("ISOCode: "+ tCountryInfo.getSISOCode());
         telefonnummer.setText("Telefonnummer: "+ tCountryInfo.getSPhoneCode());
         sprachen.setText("Sprachen: "+getSprachen(tCountryInfo));
