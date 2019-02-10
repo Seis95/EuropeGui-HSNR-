@@ -130,7 +130,7 @@ public class Controller {
         pupulateData("RO");
     }
 
-    public void weißrusslandB(){
+    public void weissrusslandB(){
         pupulateData("BY");
     }
 
