@@ -25,11 +25,11 @@
          <font>
             <Font name="Berlin Sans FB" size="20.0" />
          </font></Label>
-      <Label fx:id="land" layoutX="990.0" layoutY="261.0" prefHeight="22.0" prefWidth="279.0" text="Land:" textFill="WHITE">
+      <Label fx:id="land" layoutX="987.0" layoutY="261.0" prefHeight="22.0" prefWidth="279.0" text="Land:" textFill="WHITE">
          <font>
             <Font name="Berlin Sans FB" size="20.0" />
          </font></Label>
-      <Label fx:id="code" layoutX="990.0" layoutY="323.0" prefHeight="22.0" prefWidth="279.0" text="Code:" textFill="WHITE">
+      <Label fx:id="code" layoutX="988.0" layoutY="324.0" prefHeight="22.0" prefWidth="279.0" text="Code:" textFill="WHITE">
          <font>
             <Font name="Berlin Sans FB" size="20.0" />
          </font></Label>
@@ -37,11 +37,11 @@
          <font>
             <Font name="Berlin Sans FB" size="20.0" />
          </font></Label>
-      <Label fx:id="isocode" layoutX="990.0" layoutY="524.0" text="ISOCode:" textFill="WHITE">
+      <Label fx:id="isocode" layoutX="986.0" layoutY="524.0" text="ISOCode:" textFill="WHITE">
          <font>
             <Font name="Berlin Sans FB" size="20.0" />
          </font></Label>
-      <Label fx:id="telefonnummer" layoutX="987.0" layoutY="593.0" text="Telefonnummer:" textFill="WHITE">
+      <Label fx:id="telefonnummer" layoutX="986.0" layoutY="593.0" text="Telefonnummer:" textFill="WHITE">
          <font>
             <Font name="Berlin Sans FB" size="20.0" />
          </font></Label>
@@ -83,7 +83,7 @@
       <Button layoutX="585.0" layoutY="583.0" mnemonicParsing="false" onAction="#mazedonienB" opacity="0.0" prefHeight="25.0" prefWidth="26.0" text="Button" />
       <Button layoutX="539.0" layoutY="563.0" mnemonicParsing="false" onAction="#montenegroB" opacity="0.0" prefHeight="25.0" prefWidth="26.0" text="Button" />
       <Button layoutX="353.0" layoutY="416.0" mnemonicParsing="false" onAction="#luxemburgB" opacity="0.0" prefHeight="25.0" prefWidth="1.0" text="Button" />
-      <Label fx:id="sprachen" layoutX="992.0" layoutY="661.0" text="Sprachen:" textFill="WHITE">
+      <Label fx:id="sprachen" layoutX="986.0" layoutY="661.0" text="Sprachen:" textFill="WHITE">
          <font>
             <Font name="Berlin Sans FB" size="20.0" />
          </font>
