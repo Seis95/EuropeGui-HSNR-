@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" style="-fx-background-color: #333333;" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+   <children>
+      <ImageView fitHeight="696.0" fitWidth="978.0" layoutX="14.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="12.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="99.91046142578125" AnchorPane.topAnchor="12.0">
+         <image>
+            <Image url="@weltkarte.PNG" />
+         </image>
+      </ImageView>
+      <Button layoutX="1143.0" layoutY="18.0" mnemonicParsing="false" onAction="#go" prefHeight="25.0" prefWidth="50.0" style="-fx-background-color: white;" text="GO">
+         <font>
+            <Font name="Berlin Sans FB" size="13.0" />
+         </font></Button>
+      <TextField fx:id="input" layoutX="992.0" layoutY="18.0" />
+      <ImageView fx:id="bild" fitHeight="131.0" fitWidth="199.0" layoutX="1028.0" layoutY="73.0" pickOnBounds="true" />
+      <Label fx:id="hauptstadt" layoutX="987.0" layoutY="389.0" text="Hauptstadt: " textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB" size="20.0" />
+         </font></Label>
+      <Label fx:id="land" layoutX="990.0" layoutY="261.0" prefHeight="22.0" prefWidth="279.0" text="Land:" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB" size="20.0" />
+         </font></Label>
+      <Label fx:id="code" layoutX="990.0" layoutY="323.0" prefHeight="22.0" prefWidth="279.0" text="Code:" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB" size="20.0" />
+         </font></Label>
+      <Label fx:id="währung" layoutX="987.0" layoutY="460.0" text="Währung:" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB" size="20.0" />
+         </font></Label>
+      <Label fx:id="isocode" layoutX="990.0" layoutY="524.0" text="ISOCode:" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB" size="20.0" />
+         </font></Label>
+      <Label fx:id="telefonnummer" layoutX="987.0" layoutY="593.0" text="Telefonnummer:" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB" size="20.0" />
+         </font></Label>
+      <Button fx:id="island" layoutX="142.0" layoutY="14.0" mnemonicParsing="false" onAction="#islandB" opacity="0.0" prefHeight="80.0" prefWidth="110.0" />
+      <Button layoutX="230.0" layoutY="211.0" mnemonicParsing="false" onAction="#ukB" opacity="0.0" prefHeight="185.0" prefWidth="76.0" />
+      <Button layoutX="142.0" layoutY="287.0" mnemonicParsing="false" onAction="#irlandB" opacity="0.0" prefHeight="64.0" prefWidth="76.0" text="Button" />
+      <Button layoutX="243.0" layoutY="421.0" mnemonicParsing="false" onAction="#frankreichB" opacity="0.0" prefHeight="142.0" prefWidth="106.0" text="Button" />
+      <Button layoutX="156.0" layoutY="544.0" mnemonicParsing="false" onAction="#spanienB" opacity="0.0" prefHeight="131.0" prefWidth="82.0" text="Button" />
+      <Button layoutX="74.0" layoutY="542.0" mnemonicParsing="false" onAction="#portugalB" opacity="0.0" prefHeight="90.0" prefWidth="58.0" rotate="22.6" text="Button" />
+      <Button layoutX="440.0" layoutY="497.0" mnemonicParsing="false" onAction="#italienB" opacity="0.0" prefHeight="185.0" prefWidth="52.0" rotate="-40.8" text="Button" />
+      <Button layoutX="327.0" layoutY="391.0" mnemonicParsing="false" onAction="#belgienB" opacity="0.0" prefHeight="22.0" prefWidth="38.0" text="Button" />
+      <Button layoutX="385.0" layoutY="339.0" mnemonicParsing="false" onAction="#deutschlandB" opacity="0.0" prefHeight="131.0" prefWidth="65.0" text="Button" />
+      <Button layoutX="327.0" layoutY="350.0" mnemonicParsing="false" onAction="#niederlandeB" opacity="0.0" prefHeight="33.0" prefWidth="52.0" text="Button" />
+      <Button layoutX="405.0" layoutY="2.0" mnemonicParsing="false" onAction="#norwegenB" opacity="0.0" prefHeight="245.0" prefWidth="52.0" rotate="18.4" text="Button" />
+      <Button layoutX="360.0" layoutY="480.0" mnemonicParsing="false" onAction="#schweizB" opacity="0.0" text="Button" />
+      <Button layoutX="398.0" layoutY="259.0" mnemonicParsing="false" onAction="#dänemarkB" opacity="0.0" prefHeight="57.0" prefWidth="52.0" text="Button" />
+      <Button layoutX="468.0" layoutY="48.0" mnemonicParsing="false" onAction="#schwedenB" opacity="0.0" prefHeight="228.0" prefWidth="52.0" rotate="14.0" text="Button" />
+      <Button layoutX="556.0" layoutY="42.0" mnemonicParsing="false" onAction="#finnlandB" opacity="0.0" prefHeight="150.0" prefWidth="52.0" rotate="-7.1" text="Button" />
+      <Button layoutX="488.0" layoutY="339.0" mnemonicParsing="false" onAction="#polenB" opacity="0.0" prefHeight="73.0" prefWidth="110.0" text="Button" />
+      <Button layoutX="572.0" layoutY="213.0" mnemonicParsing="false" onAction="#estlandB" opacity="0.0" text="Button" />
+      <Button layoutX="558.0" layoutY="256.0" mnemonicParsing="false" onAction="#LettlandB" opacity="0.0" prefHeight="25.0" prefWidth="76.0" text="Button" />
+      <Button layoutX="550.0" layoutY="287.0" mnemonicParsing="false" onAction="#LitauenB" opacity="0.0" prefHeight="33.0" prefWidth="65.0" text="Button" />
+      <Button layoutX="615.0" layoutY="307.0" mnemonicParsing="false" onAction="#weißrusslandB" opacity="0.0" prefHeight="64.0" prefWidth="82.0" text="Button" />
+      <Button layoutX="732.0" layoutY="53.0" mnemonicParsing="false" onAction="#russlandB" opacity="0.0" prefHeight="371.0" prefWidth="252.0" rotate="-53.1" text="Button" />
+      <Button layoutX="608.0" layoutY="367.0" mnemonicParsing="false" onAction="#ukraineB" opacity="0.0" prefHeight="73.0" prefWidth="199.0" text="Button" />
+      <Button layoutX="656.0" layoutY="444.0" mnemonicParsing="false" onAction="#moldavienB" opacity="0.0" prefHeight="33.0" prefWidth="52.0" text="Button" />
+      <Button layoutX="457.0" layoutY="412.0" mnemonicParsing="false" onAction="#tschechienB" opacity="0.0" prefHeight="33.0" prefWidth="70.0" text="Button" />
+      <Button layoutX="440.0" layoutY="457.0" mnemonicParsing="false" onAction="#österreichB" opacity="0.0" prefHeight="33.0" prefWidth="65.0" text="Button" />
+      <Button layoutX="532.0" layoutY="433.0" mnemonicParsing="false" onAction="#slowakaiB" opacity="0.0" text="Button" />
+      <Button layoutX="506.0" layoutY="470.0" mnemonicParsing="false" onAction="#ungarnB" opacity="0.0" prefHeight="33.0" prefWidth="76.0" text="Button" />
+      <Button layoutX="590.0" layoutY="474.0" mnemonicParsing="false" onAction="#rumänienB" opacity="0.0" prefHeight="57.0" prefWidth="88.0" text="Button" />
+      <Button layoutX="537.0" layoutY="526.0" mnemonicParsing="false" onAction="#serbienB" opacity="0.0" prefHeight="33.0" prefWidth="70.0" rotate="57.3" text="Button" />
+      <Button layoutX="450.0" layoutY="519.0" mnemonicParsing="false" onAction="#kroatienB" opacity="0.0" text="Button" />
+      <Button layoutX="608.0" layoutY="541.0" mnemonicParsing="false" onAction="#bulgarienB" opacity="0.0" prefHeight="45.0" prefWidth="65.0" text="Button" />
+      <Button layoutX="583.0" layoutY="611.0" mnemonicParsing="false" onAction="#griechenlandB" opacity="0.0" prefHeight="92.0" prefWidth="82.0" text="Button" />
+      <Button layoutX="682.0" layoutY="545.0" mnemonicParsing="false" onAction="#türkeiB" opacity="0.0" prefHeight="105.0" prefWidth="248.0" rotate="-26.6" text="Button" />
+      <Button layoutX="513.0" layoutY="532.0" mnemonicParsing="false" onAction="#bosnienB" opacity="0.0" prefHeight="25.0" prefWidth="38.0" text="Button" />
+      <Button layoutX="559.0" layoutY="595.0" mnemonicParsing="false" onAction="#albanienB" opacity="0.0" prefHeight="33.0" prefWidth="26.0" text="Button" />
+      <Button layoutX="585.0" layoutY="583.0" mnemonicParsing="false" onAction="#mazedonienB" opacity="0.0" prefHeight="25.0" prefWidth="26.0" text="Button" />
+      <Button layoutX="539.0" layoutY="563.0" mnemonicParsing="false" onAction="#montenegroB" opacity="0.0" prefHeight="25.0" prefWidth="26.0" text="Button" />
+      <Button layoutX="353.0" layoutY="416.0" mnemonicParsing="false" onAction="#luxemburgB" opacity="0.0" prefHeight="25.0" prefWidth="1.0" text="Button" />
+      <Label fx:id="sprachen" layoutX="992.0" layoutY="661.0" text="Sprachen:" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB" size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
