@@ -205,7 +205,7 @@ public class Controller {
         land.setText("Name: "+ tCountryInfo.getSName());
         code.setText("Kontinent: "+ tCountryInfo.getSContinentCode());
         hauptstadt.setText("Hauptstadt: "+ tCountryInfo.getSCapitalCity());
-        wahrung.setText("Währung: "+ tCountryInfo.getSCurrencyISOCode());
+        wahrung.setText("Waehrung: "+ tCountryInfo.getSCurrencyISOCode());
         isocode.setText("ISOCode: "+ tCountryInfo.getSISOCode());
         telefonnummer.setText("Telefonnummer: "+ tCountryInfo.getSPhoneCode());
         sprachen.setText("Sprachen: "+getSprachen(tCountryInfo));
